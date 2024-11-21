@@ -1,0 +1,11 @@
+name: binance-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pandas>=2.2.0
+  - numpy>=1.26.0
+  - pip:
+    - python-binance
