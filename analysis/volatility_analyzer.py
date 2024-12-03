@@ -8,7 +8,7 @@ class VolatilityAnalyzer:
     def __init__(self):
         self.client = Client(None, None)
 
-    def get_historical_data(self, start_time, symbol="BTCUSDT"):
+    def get_historical_data(self, start_time, symbol):
         """获取历史K线数据"""
         klines = self.client.get_historical_klines(
             symbol,

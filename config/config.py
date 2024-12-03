@@ -1,5 +1,11 @@
 # 交易对设置
-SYMBOL = "BTCUSDT"
+TRADING_PAIRS = [
+    "BTCUSDT",
+    # 可以添加其他交易对
+    # "ETHUSDT",
+    # "BNBUSDT",
+    # 等等...
+]
 
 # 时间范围设置
 ONE_YEAR_AGO = "1 year ago UTC"

@@ -2,6 +2,10 @@ name: binance-analysis
 channels:
   - conda-forge
   - defaults
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+
 dependencies:
   - python=3.11
   - pip
